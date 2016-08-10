@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A4E5F5631D5B01EF0057542A /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E5F5621D5B01EF0057542A /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4E5F56B1D5B03A00057542A /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5F56A1D5B03A00057542A /* RGBAColorFromString.swift */; };
-		A4E5F56F1D5B03AF0057542A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5F56C1D5B03AF0057542A /* AppDelegate.swift */; };
 		A4E5F5701D5B03AF0057542A /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5F56D1D5B03AF0057542A /* PickFlavorDataSource.swift */; };
 		A4E5F5711D5B03AF0057542A /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5F56E1D5B03AF0057542A /* PickFlavorViewController.swift */; };
 		A4E5F5731D5B03B60057542A /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5F5721D5B03B60057542A /* FlavorFactory.swift */; };
@@ -29,7 +28,6 @@
 		A4E5F5621D5B01EF0057542A /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		A4E5F5641D5B01EF0057542A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E5F56A1D5B03A00057542A /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
-		A4E5F56C1D5B03AF0057542A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4E5F56D1D5B03AF0057542A /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
 		A4E5F56E1D5B03AF0057542A /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
 		A4E5F5721D5B03B60057542A /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				A4E5F57E1D5B044D0057542A /* background.jpg */,
 				A4E5F56A1D5B03A00057542A /* RGBAColorFromString.swift */,
 				A4E5F57C1D5B03E30057542A /* Main.storyboard */,
-				A4E5F56C1D5B03AF0057542A /* AppDelegate.swift */,
 				A4E5F56D1D5B03AF0057542A /* PickFlavorDataSource.swift */,
 				A4E5F5761D5B03CA0057542A /* IceCreamView.swift */,
 				A4E5F5771D5B03CA0057542A /* ScoopCell.swift */,
@@ -224,7 +221,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E5F56F1D5B03AF0057542A /* AppDelegate.swift in Sources */,
 				A4E5F5711D5B03AF0057542A /* PickFlavorViewController.swift in Sources */,
 				A4E5F5701D5B03AF0057542A /* PickFlavorDataSource.swift in Sources */,
 				A4E5F5791D5B03CA0057542A /* IceCreamView.swift in Sources */,

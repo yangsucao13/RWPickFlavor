@@ -14,10 +14,12 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-
+  s.platform = :ios
+  s.ios.deployment_target = '8.0'
   s.name         = "RWPickFlavor"
   s.version      = "0.0.1"
-  s.summary      = "A short description of RWPickFlavor."
+  s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+
 
   s.description  = <<-DESC
                    A longer description of RWPickFlavor in Markdown format.
